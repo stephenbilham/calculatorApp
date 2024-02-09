@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+  margin: 0 10%;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.input-container {
+  padding: 10px;
+  grid-column: 1 / span 4; /* Span across all 4 columns */
+}
